@@ -18,12 +18,7 @@ end
 def get_japanese_emoticon(file, emot)
   emotHash=load_library(file)
   japaneseEmot=emotHash['get_emoticon'][emot]
-   japaneseEmot.each do |emoticon|
-     if emoticon == emot
-       return emoticon
-     else
-       return "Sorry that emoticon was not found"
-   end
+   if 
  end
 end
 
