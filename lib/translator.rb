@@ -21,7 +21,8 @@ def get_japanese_emoticon(file, emot)
    japaneseEmot.each do |emoticon|
      if emoticon == emot
        return emoticon
-     else return "Sorry that emoticon was not found"
+     else
+       return "Sorry that emoticon was not found"
    end
  end
 end
