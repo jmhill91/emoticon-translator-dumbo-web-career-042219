@@ -10,7 +10,9 @@ emoticons.each do |meaning, emoticon|
   english=emoticon[0]
   japanese=emoticon[1]
   emotHash['get_meaning'][japanese]=meaning
-  emotHash["get_emoticon"][english]=
+  emotHash["get_emoticon"][english]=japanese
+end
+emotHash
 end
 
 def get_japanese_emoticon
