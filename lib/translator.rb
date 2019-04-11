@@ -18,7 +18,10 @@ end
 def get_japanese_emoticon(file, emot)
   emotHash=load_library(file)
   japaneseEmot=emotHash['get_emoticon'][emot]
-   if 
+   if japaneseEmot != nil 
+     return japaneseEmot
+   else 
+     return "Sorry, that emoticon was not found."
  end
 end
 
