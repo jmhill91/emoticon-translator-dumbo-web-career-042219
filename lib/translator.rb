@@ -15,8 +15,10 @@ end
 emotHash
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(file, emot)
+  load_library(file)
+  
+
 end
 
 def get_english_meaning
