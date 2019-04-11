@@ -6,7 +6,9 @@ emoticons=YAML.load_file('./lib/emoticons.yml')
 emotHash={}
 emotHash['get_meaning']={}
 emotHash['get_emoticon']={}
-emoticons.each do |language, meaning|
+emoticons.each do |meaning, emoticon|
+  english=
+  japanese=
   
 end
 
