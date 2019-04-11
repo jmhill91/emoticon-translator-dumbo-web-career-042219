@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(file, emot)
   emotHash=load_library(file)
-  japaneseEmot=emotHash['']
+  japaneseEmot=emotHash['get_emoticon']
 
 end
 
