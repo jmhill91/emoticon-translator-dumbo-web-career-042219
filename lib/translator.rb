@@ -7,8 +7,8 @@ emotHash={}
 emotHash['get_meaning']={}
 emotHash['get_emoticon']={}
 emoticons.each do |meaning, emoticon|
-  english=
-  japanese=
+  english=emoticon[0]
+  japanese=emoticon[1]
   
 end
 
