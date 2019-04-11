@@ -16,7 +16,7 @@ emotHash
 end
 
 def get_japanese_emoticon(file, emot)
-  load_library(file)
+  emotHash=load_library(file)
   
 
 end
