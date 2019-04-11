@@ -28,5 +28,9 @@ end
 def get_english_meaning(file, emot)
   emotHash=load_library(file)
   englishEmot=emotHash['get_meaning'][emot]
-  
+  if englishEmot != nil 
+    return englishEmot
+  else 
+    return "Sorry, that emoticon was not found"
+  end
 end
